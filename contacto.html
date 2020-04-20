@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Moo's Butchery</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+	
+	<div id="loader-wrapper">
+	    <img src="img/loader.svg" alt="" id="loader">
+
+	    <div class="loader-section section-left"></div>
+	    <div class="loader-section section-right"></div>
+	 
+	</div>
+	
+	<div id="myNav" class="overlay">
+		<div class="overlay-content">
+			<a href="index.html">HOME</a>
+			<a href="nosotros.html">ABOUT US</a>
+			<a href="productos.html">Products</a>
+			<a href="contacto.html">Contact</a>
+		</div>
+	</div>
+
+	<header id="header">
+		<a href="index.html">HOME</a>
+		<a href="nosotros.html">ABOUT US</a>
+		<div class="menu-logo-spacer"></div>
+		<a href="index.html" class="menu-logo">
+			
+		</a>
+		<a href="productos.html">Products</a>
+		<a href="contacto.html">Contact</a>
+
+		<div class="mobile-menu">
+			<div class="burger-menu">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+		</div>
+	</header>
+
+	<header id="mobile-header">
+		<a href="index.html" class="menu-logo">
+			
+		</a>
+
+		<div class="mobile-menu">
+			<div class="burger-menu">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+				<div class="bar3"></div>
+			</div>
+		</div>
+	</header>
+	
+	<div class="contact full-section section-contact">
+		<div class="title">
+			<hr>
+			<h2>Throw it on the grill!</h2>
+			<hr>
+		</div>
+		<div class="contact-container">
+			<div class="contact-form">
+				<p>
+					Call us at <b>07--------</b> or <b>07--------</b>
+				</p>
+				<p>
+					Leave us a message and very soon we will contact you, you will enjoy it!
+				</p>
+				<form method="POST" action="https://formspree.io/salehudeensaleh@gmail.com" >
+					<input type="text" name="Nombre" placeholder="Name" required>
+					<input type="email" name="Correo Electrónico" placeholder="E-mail" required>
+					<input type="text" name="Empresa" placeholder="Business/Company" required>
+					<input type="text" name="Teléfono" placeholder="Telephone No." required>
+					<textarea placeholder="Message" name="Mensaje" rows="4" required></textarea> 
+					<input type="submit"  value="submit">
+					<input type="hidden" name="_next" value="index.html" />
+					<input type="hidden" name="_subject" value="New Message from Moo's Butchery" />
+				</form>
+			</div>
+			<div class="contact-image">
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="section-description">
+		<h1>Featured Products</h1>
+		<p>
+			These are the favorites of the grills. Get to know them!
+		</p>
+	</div>
+
+	<div class="products">
+		<div class="product">
+			<div class="product-image">
+				<img src="img/pechoderes.png" alt="Pecho de Res">
+			</div>
+			<hr>
+			<h3>Beef Chest</h3>
+		</div>
+		<div class="product">
+			<div class="product-image">
+				<img src="img/babyback.jpg" alt="Baby Back">
+			</div>
+			<hr>
+			<h3>Baby Back</h3>
+		</div>
+		<div class="product">
+			<div class="product-image">
+				<img src="img/costillasanluis.jpg" alt="Costilla San Luis">
+			</div>
+			
+			<hr>
+			<h3>
+				St Louis Rib</h3>
+		</div>
+	</div>
+
+	<div class="footer">
+		<p>
+			<a href="index.html">Moo's Butchery 2020</a>
+		</p>
+		<a href="http://salehudeen.github.io/deen-saleh" target="_blank">
+			<img src="img/nuva.svg" alt="Desarrollado por Nuva Rocks">
+		</a>
+	</div>
+	
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
